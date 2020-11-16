@@ -1,2 +1,2 @@
 # Template-Two
-Practise html &amp; css
+Practise on html &amp; css
