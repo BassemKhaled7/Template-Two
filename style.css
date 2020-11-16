@@ -1,0 +1,527 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+.home {
+  background-image: url(business-2.jpg);
+  background-size: 100% 100%;
+}
+
+.home .overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 222666088874;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav ul {
+  overflow: auto;
+}
+
+.nav ul li {
+  float: right;
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.nav ul .libtn {
+  padding: 10px;
+  background-color: green;
+  border-radius: 5%;
+  border: none;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav ul .logo {
+  float: left;
+  list-style: none;
+  padding: 10px;
+}
+
+.logo img {
+  width: 50%;
+}
+
+.page1 {
+  text-align: center;
+}
+
+.page1 > p {
+  padding: 150px 0px 0px;
+  font-size: 20px;
+  color: white;
+}
+
+.page1 > h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+
+  padding: 0px 200px 50px;
+}
+
+.page1 button {
+  padding: 15px 28px;
+  background-color: green;
+  border: none;
+  font-size: 13px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.features {
+  width: 100%;
+  overflow: auto;
+}
+
+.container {
+  padding: 50px 0px;
+
+  width: 90%;
+  overflow: auto;
+  margin: auto;
+}
+
+.features .feature {
+  width: 33.3333%;
+
+  overflow: auto;
+  float: left;
+  margin: auto;
+}
+
+.features .feature .img-cont {
+  width: 20%;
+  float: left;
+}
+
+.img-cont img {
+  width: 100%;
+}
+.features .feature .feature-desc {
+  width: 80%;
+  float: left;
+}
+
+.services {
+  padding: 50px 0px;
+  background-color: #f8f8f8;
+}
+
+.services > p,
+.services > h2 {
+  text-align: center;
+}
+
+.services .servcontainer {
+  width: 90%;
+  overflow: auto;
+  margin: auto;
+  padding: 70px 0px;
+}
+
+.service {
+  width: 33.33%;
+  float: left;
+  padding: 0px 10px 20px;
+  background-color: white;
+}
+
+.service img {
+  width: 100%;
+}
+
+.service .layer p {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.service .layer h3 {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.service .layer span {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.secret {
+  overflow: auto;
+}
+.secret .secret-text {
+  width: 49.4%;
+  float: left;
+}
+
+.secret .secret-text > h2 {
+  padding: 100px 70px 40px;
+  font-size: 32px;
+}
+
+.secret .secret-text > p {
+  padding: 0px 50px 20px;
+}
+
+.secret .secret-text ul li {
+  padding: 5px 50px;
+}
+
+.secret .secret-text button {
+  padding: 15px 15px;
+  background-color: forestgreen;
+  border: none;
+  border-radius: 4%;
+  color: white;
+}
+
+.secret .secret-text .btn7 {
+  padding: 20px 50px;
+}
+
+.secret .secretimg {
+  width: 49.4%;
+  float: left;
+  padding: 70px 40px;
+}
+
+.secretimg img {
+  width: 100%;
+}
+
+.details {
+  background-color: aliceblue;
+  overflow: auto;
+}
+.details .detailsimg {
+  text-align: center;
+  background-color: aliceblue;
+  padding: 80px 0px 50px;
+}
+
+.details .detailsimg img {
+  width: 50px;
+}
+
+.details .detailcont {
+  width: 90%;
+  margin: auto;
+  overflow: auto;
+}
+
+.details .detail {
+  padding: 20px 20px 30px;
+  width: 33.3333%;
+  float: left;
+}
+
+.details .detail2cont {
+  width: 90%;
+  overflow: auto;
+  margin: auto;
+}
+.detail2cont .detail2 {
+  width: 33.3333%;
+  float: left;
+  padding: 0px 40px;
+}
+.details .detail3cont {
+  width: 90%;
+  overflow: auto;
+  margin: auto;
+}
+.detail3cont .detail3 {
+  width: 33.3333%;
+  float: left;
+  padding: 10px 40px 40px;
+}
+
+.details .lastdetailimg {
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.numbers .numcont {
+  overflow: auto;
+  width: 90%;
+  margin: auto;
+  padding: 50px 10px;
+}
+.numcont .number1 {
+  width: 25%;
+  float: left;
+  padding: 20px 70px;
+}
+
+.numlayer {
+  text-align: center;
+}
+.numlayer > h2 {
+  font-size: 32px;
+}
+
+.car {
+  background-image: url(download.jpg);
+  height: 600px;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.car h3 {
+  padding-top: 180px;
+  font-size: 32px;
+  color: white;
+  font-weight: 400;
+}
+
+.car p {
+  margin-bottom: 40px;
+  padding-top: 30px;
+  font-size: 24px;
+  color: white;
+}
+
+.car button {
+  margin-top: 40px;
+  padding: 20px 40px;
+  border: none;
+  font-weight: 900;
+  background-color: forestgreen;
+  border-radius: 3%;
+}
+.car button a {
+  color: white;
+  text-decoration: none;
+}
+
+.parag {
+  width: 100%;
+  overflow: auto;
+}
+.parag h3 {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  padding: 70px 20px 0px;
+}
+.parag .sub {
+  font-size: 21px;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 20px 70px;
+  color: #959595;
+}
+
+.parag .titles {
+  width: 33%;
+  float: left;
+}
+
+.parag .titles h5 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 50px;
+}
+
+.parag .titles p {
+  font-size: 18px;
+  font-weight: 200;
+
+  padding: 20px 50px;
+}
+
+.parag .titles2 {
+  width: 33%;
+  float: left;
+  padding-bottom: 70px;
+}
+
+.parag .titles2 h5 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 50px;
+}
+
+.parag .titles2 p {
+  font-size: 18px;
+  font-weight: 200;
+
+  padding: 20px 50px;
+}
+
+.emoj {
+  overflow: auto;
+  background-color: orangered;
+}
+
+.emoj .logos {
+  width: 12.5%;
+  float: left;
+  margin: 100px 47px;
+}
+
+.addbtn {
+  overflow: auto;
+  height: 250px;
+  background-color: green;
+}
+
+.addbtn .add {
+  width: 35%;
+
+  float: left;
+
+  margin-top: 80px;
+  padding-left: 50px;
+}
+
+.addbtn .add h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: inherit;
+  padding-right: 70px;
+}
+
+.addbtn .add p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.addbtn .btn {
+  width: 20%;
+
+  float: right;
+
+  margin-top: 90px;
+  padding-right: 10px;
+}
+
+.btn button {
+  border: 1px solid transparent;
+  padding: 20px 30px;
+  background-color: white;
+  border-radius: 4%;
+}
+button a {
+  color: black;
+  font-size: 20px;
+
+  text-decoration: none;
+}
+
+.bl {
+  height: 350px;
+  overflow: auto;
+  background-color: #1f2021;
+}
+
+.bl .awl1 {
+  width: 17.5%;
+  float: left;
+  padding: 50px 50px;
+}
+
+.bl .awl1 h4 {
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.bl .awl1 p {
+  color: #58606b;
+}
+.bl .awl2 {
+  width: 17.5%;
+  float: left;
+  padding: 50px 50px;
+}
+
+.bl .awl2 h4 {
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+.bl .awl2 ul li {
+  color: #58606b;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bl .awl3 {
+  width: 17.5%;
+  float: left;
+  padding: 50px 50px;
+}
+
+.bl .awl3 h4 {
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.bl .awl3 ul li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #58606b;
+}
+
+.bl .awl4 {
+  width: 17.5%;
+  float: left;
+  padding: 50px 50px;
+}
+
+.bl .awl4 h4 {
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.bl .awl4 ul li {
+  font-size: 14px;
+  font-weight: 400;
+  list-style: none;
+  color: #58606b;
+}
+
+.last {
+  overflow: auto;
+  height: 70px;
+
+  background-color: #191919;
+}
+
+.last .footer {
+  width: 40%;
+  float: right;
+  margin-top: 25px;
+}
+.last .footer p {
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 30px;
+  color: #58606b;
+}
